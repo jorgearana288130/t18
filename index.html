@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Ajax</title>
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body>
+      <header><h1> T18-Ajax </h1></header>
+
+      <form>
+<label><b>Matricula:</b></label><input type="text" placeholder='Al menos 6 numeros' id="regnum"><br>
+<label><b>Primer Nombre:</b></label><input type="text" id="fname"><br>
+<label><b>Apellido:</b></label> <input type="text" id="lname"><br>
+<label><b>Status:</b></label> <select id="status" autofocus="0">
+  <option value="0">option</option>
+  <option value="nuevo ingreso">Nuevo Ingreso</option>
+  <option value="baja temporal">Baja Temporal</option>
+  <option value="egresado">Egresado</option>
+  <option value="baja definitiva">Baja Definitiva</option>
+  <option value="reingreso">Reingreso</option>
+</select><br><br>
+
+<button type="button" id="subir">Subir</button>
+      </form>
+      <form>
+<div id="idtext"><b>ID:</b></div> <input type="number" placeholder="80" id="inputID">
+<button type="button" id="buscar">Buscar</button>
+<button type="button" id="todos">Ver todos</button>
+      </form>
+<table>
+  <thead>
+    <th>Id</th>
+    <th>Matricula</th>
+    <th>Nombre</th>
+    <th>Apellido</th>
+    <th>Estatus</th>
+  </thead>
+  <tbody>
+
+  </tbody>
+  <tfoot>
+
+  </tfoot>
+</table>
+
+</script>
+
+</script>
+
+
+<script src="js/jquery-1.11.3.js"> </script>
+<script src="js/t18.js"></script>
+<script src="js/18t.js"></script>
+
+  </body>
+</html>
